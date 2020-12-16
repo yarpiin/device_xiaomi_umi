@@ -135,7 +135,7 @@ set_light_backlight(struct light_device_t* dev,
         struct light_state_t const* state)
 {
     int err = 0;
-    int brightness = rgb_to_brightness(state);
+    int brightness = rgb_to_brightness(state) * 8;
     unsigned int lpEnabled =
         state->brightnessMode == BRIGHTNESS_MODE_LOW_PERSISTENCE;
     if(!dev) {
