@@ -23,3 +23,7 @@ EVO_BUILD_TYPE := OFFICIAL
 EXTRA_FOD_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
+
+#Maintainer
+EVO_DONATE_URL := https://www.paypal.me/yarpiin
+EVO_MAINTAINER := yarpiin
