@@ -149,10 +149,17 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # overlay-remove
 PRODUCT_PACKAGES += \
-    FrameworksResCommon \
-    FrameworksResTarget \
+    AospFrameworkResOverlay \
+    AospWifiResOverlay \
+    DevicesAndroidOverlay \
     DevicesOverlay \
-    DevicesAndroidOverlay
+    FrameworksResTarget \
+    GestureLineOverlay \
+    MiuiBiometricResOverlay \
+    MiuiFrameworkResOverlay \
+    MiuiSettingsResOverlay \
+    MiuiSystemUIResOverlay \
+    WifiResTargety
 
 # Permissions
 PRODUCT_COPY_FILES += \
