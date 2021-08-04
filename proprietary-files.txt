@@ -1332,8 +1332,6 @@ vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
 # NFC
-vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
-vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc
 vendor/etc/permissions/com.nxp.mifare.xml
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp-pnscr.conf
@@ -1341,8 +1339,6 @@ vendor/etc/libnfc-nxp.conf
 vendor/etc/libnfc-nxp_RF.conf
 vendor/etc/sn100u_nfcon.pnscr
 vendor/lib/libsn100u_fw.so
-vendor/lib64/nfc_nci.nqx.default.hw.so
-vendor/lib64/se_nq_extn_client.so
 
 # NVRAM
 vendor/bin/nv_mac
@@ -1642,9 +1638,7 @@ vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 vendor/bin/hw/vendor.qti.secure_element@1.2-service
 vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
 vendor/lib64/android.hardware.secure_element@1.0-impl.so
-vendor/lib64/jcos_nq_client.so
 vendor/lib64/libwvkeybox.so
-vendor/lib64/ls_nq_client.so
 
 # Sensor-calibrate
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
