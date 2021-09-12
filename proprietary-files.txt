@@ -1332,6 +1332,7 @@ vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
 # NFC
+vendor/bin/nqnfcinfo
 vendor/etc/permissions/com.nxp.mifare.xml
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp-pnscr.conf
