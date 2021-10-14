@@ -109,14 +109,15 @@ vendor/lib/libadm.so
 vendor/lib/libaudioalsa.so
 vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioparsers.so
--vendor/lib/libadsprpc.so
+vendor/lib/libadsprpc.so
 vendor/lib/libdrc.so
 vendor/lib/libaudcal.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libqtigef.so
+vendor/lib/libresampler.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/libssrec.so
--vendor/lib64/libadsprpc.so
+vendor/lib64/libadsprpc.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
@@ -129,6 +130,7 @@ vendor/lib64/libaudioconfigstore.so
 vendor/lib64/libaudioparsers.so
 vendor/lib64/libloadalgo_stub.so
 vendor/lib64/libqtigef.so
+vendor/lib64/libresampler.so
 vendor/lib64/libhdmipassthru.so
 vendor/lib/libultrasound.so
 vendor/lib64/libultrasound.so
