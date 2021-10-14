@@ -21,7 +21,6 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_umi
 TARGET_RECOVERY_DEVICE_MODULES := libinit_umi
 
 # Kernel
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb
 TARGET_KERNEL_CONFIG := vendor/umi_user_defconfig
 
 # Releasetools
