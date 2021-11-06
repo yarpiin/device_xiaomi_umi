@@ -1176,10 +1176,10 @@ vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so
 
 
 # HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/framework/com.android.hotwordenrollment.common.util.jar
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|91c49e2f1f95fe76952eb55d7a936a997685b964
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|89b2c917c0c35489f10306f1627b2cf7cf6b59cf
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
 
 # IMS
 -system_ext/priv-app/ims/ims.apk
