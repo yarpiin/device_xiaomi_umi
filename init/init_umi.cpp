@@ -108,9 +108,9 @@ void load_umi() {
     property_override("ro.product.system.model", "Mi 10");
     property_override("ro.build.product", "umi");
     property_override("ro.product.device", "umi");
-    property_override("ro.build.description", "redfin-user 11 RD1A.201105.003.C1 6886399 release-keys");
+    property_override("ro.build.description", "redfin-user 12 SPB5.210812.002 7671067 release-keys");
     property_override_multifp("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.bootimage.build.fingerprint",
-        "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RD1A.201105.003.C1/6886399:user/release-keys");
+        "ro.vendor.build.fingerprint", "google/redfin/redfin:12/SPB5.210812.002/7671067:user/release-keys");
 }
 
 void vendor_load_properties() {
