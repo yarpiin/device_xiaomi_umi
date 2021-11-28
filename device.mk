@@ -12,9 +12,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
-#Audio
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/xiaomi/umi/audio,$(TARGET_COPY_OUT_VENDOR)/etc)
-
 # Keylayout
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio-keys.kl
