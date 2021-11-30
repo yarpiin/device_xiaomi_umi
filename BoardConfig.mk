@@ -21,7 +21,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_umi
 TARGET_RECOVERY_DEVICE_MODULES := libinit_umi
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/umi_user_defconfig
+TARGET_KERNEL_CONFIG := umi_user_defconfig
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
