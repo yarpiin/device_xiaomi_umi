@@ -17,7 +17,7 @@ TARGET_OTA_ASSERT_DEVICE := umi
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Fingerprint
-BUILD_FINGERPRINT := Xiaomi/umi/umi:11/RKQ1.200826.002/V12.5.10.0.RJBCNXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/umi/umi:12/SKQ1.211006.001/V13.0.4.0.SJBCNXM:user/release-keys
 
 # Kernel
 TARGET_KERNEL_CONFIG := umi_user_defconfig
