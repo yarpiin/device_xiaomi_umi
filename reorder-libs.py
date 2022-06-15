@@ -20,11 +20,6 @@ def strcoll_extract_utils(string1: str, string2: str) -> int:
     if not string1 or not string2:
         return strcoll(string1, string2)
 
-    # Remove '-' from strings if there,
-    # it is used to indicate a build target
-    string1 = string1.removeprefix('-')
-    string2 = string2.removeprefix('-')
-
     # If no directories, compare normally
     if not "/" in string1 and not "/" in string2:
         return strcoll(string1, string2)
