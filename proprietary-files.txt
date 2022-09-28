@@ -117,13 +117,6 @@ vendor/lib64/libresampler.so
 vendor/lib64/libssrec.so
 vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
-# Audio Configs
-vendor/etc/audio_configs.xml
-vendor/etc/audio_configs_stock.xml
-vendor/etc/audio_effects.xml
-vendor/etc/audio_policy_volumes.xml
-vendor/etc/cirrus.cfg
-
 # Audio FX Modules
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libmisoundfx.so
