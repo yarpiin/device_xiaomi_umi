@@ -66,9 +66,11 @@ vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
-vendor/lib/rfsa/adsp/misound_res.bin|3e6b5636d5d9e0d4a7c98e821aa7fbfcf8f40c83
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
+
+# ADSP Modules - from Redmi K40S (munch) V13.0.7.0.SLMEUXM
+vendor/lib/rfsa/adsp/misound_res.bin|3e6b5636d5d9e0d4a7c98e821aa7fbfcf8f40c83
 
 # Adreno
 vendor/firmware/a650_gmu.bin
